@@ -1,0 +1,13 @@
+{
+  "itemGroup.learnneoforge": "Example Mod Tab",
+  "block.learnneoforge.example_block": "Example Block",
+  "item.learnneoforge.example_item": "Example Item",
+
+  "learnneoforge.configuration.title": "learn_neoforge Configs",
+  "learnneoforge.configuration.section.learnneoforge.common.toml": "learn_neoforge Configs",
+  "learnneoforge.configuration.section.learnneoforge.common.toml.title": "learn_neoforge Configs",
+  "learnneoforge.configuration.items": "Item List",
+  "learnneoforge.configuration.logDirtBlock": "Log Dirt Block",
+  "learnneoforge.configuration.magicNumberIntroduction": "Magic Number Text",
+  "learnneoforge.configuration.magicNumber": "Magic Number"
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "learnneoforge:block/broken_unitree" },
+    "facing=east":  { "model": "learnneoforge:block/broken_unitree", "y": 90 },
+    "facing=south": { "model": "learnneoforge:block/broken_unitree", "y": 180 },
+    "facing=west":  { "model": "learnneoforge:block/broken_unitree", "y": 270 }
+  }
+}
