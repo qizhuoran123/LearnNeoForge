@@ -19,7 +19,8 @@ public class learnforge_tabs {
                             .displayItems(((itemDisplayParameters, output) ->
                             {output.accept(LearnItem.LEARN_CHAIR_ITEM.get());
                             output.accept(ModSpawnItem.UNITREE.get());
-                            output.accept(LearnItem.BROKEN_UNITREE_ITEM.get());}))
+                            output.accept(LearnItem.BROKEN_UNITREE_ITEM.get());
+                            output.accept(LearnItem.UNITREE_GUARANTEE.get());}))
                             .build());
 
     public static void register(IEventBus eventBus){

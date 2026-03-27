@@ -1,6 +1,6 @@
 {
-  "parent": "Item/generated",
+  "parent": "item/generated",
   "textures": {
-    "layer0": "learnneoforge/unitree_guarantee"
+    "layer0": "learnneoforge:item/unitree_guarantee"
   }
 }
