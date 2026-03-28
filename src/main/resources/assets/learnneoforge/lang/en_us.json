@@ -9,5 +9,13 @@
   "learnneoforge.configuration.items": "Item List",
   "learnneoforge.configuration.logDirtBlock": "Log Dirt Block",
   "learnneoforge.configuration.magicNumberIntroduction": "Magic Number Text",
-  "learnneoforge.configuration.magicNumber": "Magic Number"
+  "learnneoforge.configuration.magicNumber": "Magic Number",
+  "block.learnneoforge.laptop": "Laptop",
+  "item.learnneoforge.unitree": "unitree robot",
+  "block.learnneoforge.broken_unitree": "broken unitree",
+  "item.learnneoforge.credit_card": "credit card",
+  "message.learnneoforge.insufficient_balance": "Insufficient Balance!",
+  "tooltip.learnneoforge.balance": "Balance: %s",
+  "tooltip.learnneoforge.credit_card_desc": "Come and have your own credit card, open account for online shopping, and sell ores and minerals to get balance!"
+
 }

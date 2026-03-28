@@ -20,7 +20,9 @@ public class learnforge_tabs {
                             {output.accept(LearnItem.LEARN_CHAIR_ITEM.get());
                             output.accept(ModSpawnItem.UNITREE.get());
                             output.accept(LearnItem.BROKEN_UNITREE_ITEM.get());
-                            output.accept(LearnItem.UNITREE_GUARANTEE.get());}))
+                            output.accept(LearnItem.UNITREE_GUARANTEE.get());
+                            output.accept(LearnItem.LAPTOP.get());
+                            output.accept(LearnItem.CREDIT_CARD.get());}))
                             .build());
 
     public static void register(IEventBus eventBus){

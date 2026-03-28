@@ -9,6 +9,7 @@ import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
+import net.neoforged.neoforge.client.event.RegisterMenuScreensEvent;
 import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 
@@ -38,5 +39,9 @@ public class learnneoforgeClient {
     @SubscribeEvent
     public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event){
         event.registerLayerDefinition(unitreeModel.LAYER_LOCATION, unitreeModel::createBodyLayer);
+    }
+    @SubscribeEvent
+    public static void registerScreens(RegisterMenuScreensEvent event){
+        event.register(LearnMenu.LAPTOP_MENU.get(),LaptopScreen::new);
     }
 }

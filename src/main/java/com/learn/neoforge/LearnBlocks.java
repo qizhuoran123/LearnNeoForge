@@ -28,6 +28,12 @@ public class LearnBlocks {
                     .strength(6.0f)
                     .noOcclusion()
                     .noCollission()));
+    public static final DeferredBlock<Block> LAPTOP =
+            BLOCKS.register("laptop", () -> new LapTopBlock(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_BLACK)
+                    .strength(1.0f)
+                    .noCollission()
+                    .noOcclusion()));
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);

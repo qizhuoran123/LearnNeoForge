@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {"item": "learnneoforge:broken_unitree"},
+    {"item": "learnneoforge:unitree_guarantee"}
+  ],
+  "result": {
+    "id": "learnneoforge:unitree",
+    "count": 1
+  }
+}

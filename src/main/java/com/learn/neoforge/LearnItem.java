@@ -45,8 +45,15 @@ public class LearnItem {
                     new Item.Properties().attributes(ItemAttributeModifiers.builder().build())));
     public static final DeferredItem<Item> UNITREE_GUARANTEE =
             ITEMS.register("unitree_guarantee",() -> new CatalystItem(new Item.Properties().stacksTo(1).attributes(ItemAttributeModifiers.builder().build())));
-
-
+    public static final DeferredItem<Item> CREDIT_CARD =
+            ITEMS.register("credit_card", () -> new DenoteItem(new Item
+                    .Properties()
+                    .stacksTo(1)
+                    .component(LearnComponent.BALANCE.get(),1000)
+                    .attributes(ItemAttributeModifiers.builder().build())));
+    public static final DeferredItem<Item> LAPTOP =
+            ITEMS.register("laptop",()-> new BlockItem(LearnBlocks.LAPTOP.get(),
+                    new Item.Properties().attributes(ItemAttributeModifiers.builder().build())));
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
